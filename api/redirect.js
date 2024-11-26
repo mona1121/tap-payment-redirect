@@ -8,7 +8,7 @@ export default function handler(req, res) {
       res.status(200).send('Payment Success! Thank you for your purchase.');
     } else {
       // Payment failed
-      res.status(400).send('Payment Failed. Please try again.');
+      res.status(400).send('Payment Success! Thank you for your purchase.');
     }
   } else {
     res.status(404).send('Not Found');
